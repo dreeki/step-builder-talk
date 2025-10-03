@@ -3,7 +3,7 @@ package part2RegularBuilder;
 public class Main {
 	public static void main(String[] args) {
 		User user = User.builder()
-				.email("andreas.dewitte@continuum.be")
+				.email("andreas.dewitte@hogent.be")
 				.firstName("Andreas")
 				.lastName("De Witte")
 				.nickname("dreeki")
@@ -12,7 +12,7 @@ public class Main {
 				.build();
 
 
-		User userRequiredFields = User.builder("andreas.dewitte@continuum.be", "Andreas", "De Witte")
+		User userRequiredFields = User.builder("andreas.dewitte@hogent.be", "Andreas", "De Witte")
 				.nickname("dreeki")
 				.age(28)
 				.build();
